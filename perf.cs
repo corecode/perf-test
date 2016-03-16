@@ -16,7 +16,7 @@ class main {
                 if (r <= 0)
                     break;
 
-                for (int i = 0; i < r - 4 - 3;) {
+                for (int i = 4; i < r - 3;) {
                     uint combined = buf[i++];
                     combined |= (uint)buf[i++] << 8;
                     combined |= (uint)buf[i++] << 16;

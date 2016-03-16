@@ -15,7 +15,7 @@ func main() {
 		if err != nil {
 			break
 		}
-		for i := 0; i < r-4-3; {
+		for i := 4; i < r-3; {
 			combined := uint(buf[i])
 			i++
 			combined |= uint(buf[i]) << 8
